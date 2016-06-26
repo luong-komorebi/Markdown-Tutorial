@@ -30,7 +30,6 @@ Because it's :
  * **FAST** : It saves time compared to other types of text files/formats. It helps boost the productivity and workflows of writer.
  * **CLEAN** : Both the syntax and output are clean, not messy with our eyes and simple to manage.
  * **FLEXIBLE** : With just a little set-up, your text will be translated cross any platform out there, editable in any text-editing software and convertible to a wide array of formats.
- * **GITBOOK** : GitBook is a modern publishing toolchain. Making both writing and collaboration easy. It does both support Markdown and have a close relation with the beloved Github.
 <br></br>
 **In short**, normal users will find it useful in any cases, especially when you are in need of something better than plain text but less functional than Microsoft Word.  
 **For Developers**, if you are lazy to write HTML code , you will love markdown. **Moreover**, **Github** and many sites favor markdown for readme file of projects. That means you gonna meet markdown in your life one way or another.  
@@ -45,7 +44,8 @@ As said above, any editors can be used to edit markdown. However, there are a fe
  * **[*Minimalist Markdown*](https://chrome.google.com/webstore/detail/minimalist-markdown-edito/pghodfjepegmciihfhdipmimghiakcjf?hl=en)** : Chrome app. Works everywhere if you have Chrome installed ( this is my favorite one).
  * **[*Macdown*](http://macdown.uranusjr.com/)** : best for Mac.
  * **[*MarkdownPad*](http://markdownpad.com/)** : best for Windows.
- * **[*Remarkable*](https://remarkableapp.github.io/)** : best for Linux.  
+ * **[*Remarkable*](https://remarkableapp.github.io/)** : best for Linux. 
+ * **[*GITBOOK*](http://www.gitbook.com/)** : GitBook is a modern publishing toolchain. Making both writing and collaboration easy. It does both support Markdown and have a close relation with the beloved Github.
 <div id='syntax'/>  
 
 ## Markdown Syntax  
