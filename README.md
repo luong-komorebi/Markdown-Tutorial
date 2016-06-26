@@ -30,6 +30,7 @@ Because it's :
  * **FAST** : It saves time compared to other types of text files/formats. It helps boost the productivity and workflows of writer.
  * **CLEAN** : Both the syntax and output are clean, not messy with our eyes and simple to manage.
  * **FLEXIBLE** : With just a little set-up, your text will be translated cross any platform out there, editable in any text-editing software and convertible to a wide array of formats.
+ * **GITBOOK** : GitBook is a modern publishing toolchain. Making both writing and collaboration easy. It does both support Markdown and have a close relation with the beloved Github.
 <br></br>
 **In short**, normal users will find it useful in any cases, especially when you are in need of something better than plain text but less functional than Microsoft Word.  
 **For Developers**, if you are lazy to write HTML code , you will love markdown. **Moreover**, **Github** and many sites favor markdown for readme file of projects. That means you gonna meet markdown in your life one way or another.  
