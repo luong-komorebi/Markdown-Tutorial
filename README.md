@@ -69,6 +69,7 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
  * You can use \<br/> tag to force line break. 
  * Double space then enter if you want to make a new line if there is trouble making new lines.
  * Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online [here](http://www.markdowntutorial.com).
+ *  Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from [Sean Brody](https://goo.gl/ASZwEn))
  
 ######Author: *Vo Tran Thanh Luong*. 
    
