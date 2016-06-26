@@ -1,4 +1,4 @@
-# Markdown Tutorial
+# Markdown Tutorial 
 ![](http://i.imgur.com/IMTN5cy.png)  
 
 Hello, welcome to my tutorial for markdown.  
@@ -6,10 +6,10 @@ In this tutorial you will learn the most basics things about Markdown.
 
 *******
 Tables of contents  
-* [What is Markdown?](#whatismarkdown)
-* [Why use Markdown?](#why)
-* [Tools for Markdown](#tools)
-* [Markdown Syntax](#syntax)
+ 1. [What is Markdown?](#whatismarkdown)
+ 2. [Why use Markdown?](#why)
+ 3. [Tools for Markdown](#tools)
+ 4. [Markdown Syntax](#syntax)
 
 *******
 
@@ -69,4 +69,6 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
  * You can use \<br/> tag to force line break. 
  * Double space then enter if you want to make a new line if there is trouble making new lines.
  * Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online [here](http://www.markdowntutorial.com).
+ 
+######Author: *Vo Tran Thanh Luong*. 
    
