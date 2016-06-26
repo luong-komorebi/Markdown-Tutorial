@@ -65,11 +65,12 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
   " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
   alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
   ```
- * Markdown does support Emojii :laughing: :laughing:
+ * Markdown does support Emojii :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( get some emojies [here](http://www.emoji-cheat-sheet.com/) )
  * You can use \<br/> tag to force line break. 
  * Double space then enter if you want to make a new line if there is trouble making new lines.
  * Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online [here](http://www.markdowntutorial.com).
  *  Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from [Sean Brody](https://goo.gl/ASZwEn))
+ *  Any URL (like http://www.github.com/) will be automatically converted into a clickable link. 
  
 ######Author: *Vo Tran Thanh Luong*. 
    
