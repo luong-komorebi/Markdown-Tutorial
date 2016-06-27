@@ -49,11 +49,8 @@ As said above, any editors can be used to edit markdown. However, there are a fe
 <div id='syntax'/>  
 
 ## Markdown Syntax  
-All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.    
+All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.  
 
-*This table is also made by using markdown.It doesnt look best, but it still demonstrates how tables are applied by using mardown syntax. To have a better look, you should view [README.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README.md).*  
-
-<br></br>
 | Format        | Syntax      | Example |
 | ------|-----|-----|
 | Italic  	| \*Text\* 	| *This is italic* 	|
@@ -74,6 +71,8 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
 | Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
 
+<br></br>
+*This table is also made by using markdown.It doesnt look best, but it still demonstrates how tables are applied by using mardown syntax. To have a better look, you should view **[README.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README.md)**.*
  <br></br>
  <p id="section1">Note: Footnote** actually doesnt render properly in table (and github preview) :(, but it kinda looks like this     ![](http://i.imgur.com/pmeBr28.png)
    <br></br>
