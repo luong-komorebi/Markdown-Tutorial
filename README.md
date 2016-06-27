@@ -49,12 +49,13 @@ As said above, any editors can be used to edit markdown. However, there are a fe
 <div id='syntax'/>  
 
 ## Markdown Syntax  
-All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.  
+All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text in this file ( they will be formatted as you view them so you wont know what's the syntax !!) so please consider this table below for the whole basics syntax.  
+*For a markdown (not a picture) version of this table , please view [README2.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README2.md). This table version is also copiable
 
 ![SYNTAX](http://goo.gl/VMN5DJ)
  *Credit goes to this [page](https://en.support.wordpress.com/markdown-quick-reference/)*
 
-### Useful notes  :
+## Useful notes  :
  * Markdown allows you to use backslash escapes to generate literal characters which
 would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \     
  `So? \*This\* isnt italic  anymore but is surrounded by literal asterisks.`
@@ -71,7 +72,8 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
  * Double space then enter if you want to make a new line if there is trouble making new lines.
  * Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online [here](http://www.markdowntutorial.com).
  *  Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from [Sean Brody](https://goo.gl/ASZwEn))
- *  Any URL (like http://www.github.com/) will be automatically converted into a clickable link. 
+ *  Any URL (like http://www.github.com/) will be automatically converted into a clickable link.  
+ *  Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.  
  
 ######Author: *Vo Tran Thanh Luong*. 
    
