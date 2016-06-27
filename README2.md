@@ -54,7 +54,7 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Format        | Syntax      | Example |
 | ------|-----|-----|
 | Italic  	| \*Text\* 	| *This is italic* 	|
-| Bold  	| \**Bold\** 	| **This is bold** 	|
+| Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
 | Inline links 	| \[Description text\](url here) 	| A [link](http://www.github.com) 	|
 | Images 	| \![Caption\](url to img) 	| An image ![image](http://i.imgur.com/hRLuez2.png) 	|
 | Link+images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
