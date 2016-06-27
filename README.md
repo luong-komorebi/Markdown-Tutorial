@@ -50,7 +50,7 @@ As said above, any editors can be used to edit markdown. However, there are a fe
 
 ## Markdown Syntax  
 All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text in this file ( they will be formatted as you view them so you wont know what's the syntax !!) so please consider this table below for the whole basics syntax.  
-*For a markdown (not a picture) version of this table , please view [README2.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README2.md). This table version is also copiable
+*For a markdown (not a picture) version of this table , please view [README2.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README2.md). This table version is also copiable*
 
 ![SYNTAX](http://goo.gl/VMN5DJ)
  *Credit goes to this [page](https://en.support.wordpress.com/markdown-quick-reference/)*
