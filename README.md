@@ -24,6 +24,10 @@ According to Wikipedia :
 `SIMPLY: IT'S JUST ANOTHER TYPE OF TEXT FILE, LIKE .txt .doc ....( now it's .md :laughing:) AND IT HAS SOME SPECIAL SYNTAX.`  
 <div id='why'/>  
 
+*There is no clearly defined Markdown standard. This has led to fragmentation as different vendors write their own variants of the language to correct flaws or add missing features.. A list of markdown flavour is available [here](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors).*
+
+From now, this guide will mainly focus on Github Flavoured Markdown.
+
 ## Why use markdown?
 Because it's :
  * **EZ** : The syntax is so easy that you can learn in a minute or two then write without noticing anything weirdo  or geeky.
@@ -49,13 +53,37 @@ As said above, any editors can be used to edit markdown. However, there are a fe
 <div id='syntax'/>  
 
 ## Markdown Syntax  
-All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text in this file ( they will be formatted as you view them so you wont know what's the syntax !!) so please consider this table below for the whole basics syntax. 
-<br></br>
-*For a markdown (not a picture) version of this table , please view [README2.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README2.md). This table version is also copiable*
-<br></br>
-![SYNTAX](http://goo.gl/VMN5DJ)
- *Credit goes to this [page](https://en.support.wordpress.com/markdown-quick-reference/)*
+All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.  
 
+| Format        | Syntax      | Example |
+| ------|-----|-----|
+| Italic  	| \*Text\* 	| *This is italic* 	|
+| Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
+| Inline links 	| \[Description text\](url here) 	| A [link](http://www.github.com) 	|
+| Images 	| \![Caption\](url to img) 	| An image ![image](http://i.imgur.com/hRLuez2.png) 	|
+| Link+images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
+| Footnotes  	| I have more \[^1\] to say.   \[^1\]: say it down here. 	| <a href="#section1">Hey,Please read the note below this table.  	|
+| Line breaks 	| Double space + enter 	|  	|
+| Unordered Lists 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
+| Ordered Lists 	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
+| Mixed Lists 	| 1. Item 1      * item 1a 	|  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
+| Block quote 	| \> Quoted text 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
+| Preformatted 	| Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
+| Code 	| \`Insert Code\` 	| `cout<<"Hello world";` 	|
+| Code block/ Syntax highlighting 	| \`\`\`insert code\`\`\` 	|  <a href="#section1">Hey,Please read the note below this table. 	|
+| Headers 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>This is a h3 header</h3>	|
+| Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
+| Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
+
+<br></br>
+*This table is also made by using markdown.It doesnt look best, but it still demonstrates how tables are applied by using mardown syntax. To have a better look, you should view **[README.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README.md)**.*
+ <br></br>
+ <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this     ![](http://i.imgur.com/pmeBr28.png)
+   <br></br>
+   The same goes for **block code/syntax hightlighting**. It kinda looks like this picture :
+   ![](http://i.imgur.com/z8KrxAz.png).</p>
+
+These characteristics are dependent upon each markdown flavour.
 ## Useful notes  :
  * Markdown allows you to use backslash escapes to generate literal characters which
 would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \     
@@ -75,6 +103,7 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
  *  Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from [Sean Brody](https://goo.gl/ASZwEn))
  *  Any URL (like http://www.github.com/) will be automatically converted into a clickable link.  
  *  Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.  
+```I had such a pain making the above table possible```
  
 ######Author: *Vo Tran Thanh Luong*. 
    
