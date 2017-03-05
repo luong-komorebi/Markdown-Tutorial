@@ -76,7 +76,6 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
 
 <br></br>
-*This table is also made by using markdown.It doesnt look best, but it still demonstrates how tables are applied by using mardown syntax. To have a better look, you should view **[README.md](https://github.com/VoLuong/Markdown-Guide/blob/master/README.md)**.*
  <br></br>
  <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this     ![](http://i.imgur.com/pmeBr28.png)
    <br></br>
@@ -84,6 +83,7 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
    ![](http://i.imgur.com/z8KrxAz.png).</p>
 
 These characteristics are dependent upon each markdown flavour.
+
 ## Useful notes  :
  * Markdown allows you to use backslash escapes to generate literal characters which
 would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \     
