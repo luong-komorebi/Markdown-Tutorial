@@ -105,5 +105,5 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
  *  Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.  
 ```I had such a pain making the above table possible```
  
-######Author: *Vo Tran Thanh Luong*. 
+###### Author: *Vo Tran Thanh Luong*. 
    
