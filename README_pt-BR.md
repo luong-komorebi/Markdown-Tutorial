@@ -107,4 +107,4 @@ de outra forma teria um significado especial na sintaxe de formatação da Markd
 ```Eu tive tanta dor tornando possível a tabela acima```
  
 ###### Autor: *Vo Tran Thanh Luong*.
-#### Tradução: *Héricles Emanuel*
+###### Tradução: *Héricles Emanuel*.
