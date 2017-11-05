@@ -53,6 +53,7 @@ Conforme mencionado acima, qualquer editor pode ser usado para editar o markdown
  * **[*GITBOOK*](http://www.gitbook.com/)** : O GitBook é uma ferramenta de publicação moderna. Facilitando a escrita e a colaboração. Ambos suportam a Markdown e têm uma estreita relação com o amado Github.
 <div id='syntax'/>  
 
+
 ## Sintaxe do Markdown  
 Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/markdown/syntax) . Seria necessário muito esforço para descrever a sintaxe no texto (eles serão formatados), então, considere esta tabela abaixo para toda a sintaxe básica.  
 
