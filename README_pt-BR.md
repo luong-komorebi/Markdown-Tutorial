@@ -53,58 +53,59 @@ Conforme mencionado acima, qualquer editor pode ser usado para editar o markdown
  * **[*GITBOOK*](http://www.gitbook.com/)** : O GitBook é uma ferramenta de publicação moderna. Facilitando a escrita e a colaboração. Ambos suportam a Markdown e têm uma estreita relação com o amado Github.
 <div id='syntax'/>  
 
-## Markdown Syntax  
-All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.  
 
-| Format        | Syntax      | Example |
+## Sintaxe do Markdown  
+Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/markdown/syntax) . Seria necessário muito esforço para descrever a sintaxe no texto (eles serão formatados), então, considere esta tabela abaixo para toda a sintaxe básica.  
+
+| Formato        | Sintaxe      | Exemplo |
 | ------|-----|-----|
-| Italic  	| \*Text\* 	| *This is italic* 	|
-| Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
-| Inline links 	| \[Description text\](url here) 	| A [link](http://www.github.com) 	|
-| Images 	| \![Caption\](url to img) 	| An image ![image](http://i.imgur.com/hRLuez2.png) 	|
-| Link+images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
-| Footnotes  	| I have more \[^1\] to say.   \[^1\]: say it down here. 	| <a href="#section1">Hey,Please read the note below this table.  	|
-| Line breaks 	| Double space + enter 	|  	|
-| Unordered Lists 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
-| Ordered Lists 	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
-| Mixed Lists 	| 1. Item 1      * item 1a 	|  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
-| Block quote 	| \> Quoted text 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
-| Preformatted 	| Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|   Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. 	|
-| Code 	| \`Insert Code\` 	| `cout<<"Hello world";` 	|
-| Code block/ Syntax highlighting 	| \`\`\`insert code\`\`\` 	|  <a href="#section1">Hey,Please read the note below this table. 	|
-| Headers 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>This is a h3 header</h3>	|
-| Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
-| Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
+| Itálico  	| \*Text\* 	| *Isto está em itálico* 	|
+| Negrito  	| \*\*Bold\*\* 	| **Isto está em negrito** 	|
+| Links inline 	| \[texto\](url aqui) 	| Um [link](http://www.github.com) 	|
+| Imagens 	| \![Legenda\](url da img) 	| Uma imagem ![image](http://i.imgur.com/hRLuez2.png) 	|
+| Link+imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
+| Notas de rodapé  	| Eu tenho mais \[^1\] pra dizer.   \[^1\]: diga aqui. 	| <a href="#section1">Hey,Please read the note below this table.  	|
+| Quebras de linha 	| Double space + enter 	|  	|
+| Listas não ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
+| Listas Ordenadas  	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
+| Listas mistas 	| 1. Item 1      * item 1a 	|  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
+| Citação 	| \> Texto citado 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
+| Preformatted 	| Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|   Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|
+| Código 	| \`Insira o código\` 	| `cout<<"Hello world";` 	|
+| Bloco de código/ Destaque de Sintaxe 	| \`\`\`Insira o código\`\`\` 	|  <a href="#section1">Ei, leia a nota abaixo desta tabela. 	|
+| Títulos 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>Isso é um título h3</h3>	|
+| Riscado 	| \~~Insira o texto aqui\~~ 	| ~~Eu estou morto~~ 	|
+| Tabelas 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
 
 <br></br>
  <br></br>
- <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this     ![](http://i.imgur.com/pmeBr28.png)
+ <p id="section1">Nota: **Nota de rodapé** na verdade não é processado corretamente na tabela (e github preview), mas parece ser assim     ![](http://i.imgur.com/pmeBr28.png)
    <br></br>
-   The same goes for **block code/syntax hightlighting**. It kinda looks like this picture :
+   O mesmo vale para **Bloco de codigo/Destaque de sintaxe**. É um pouco parecido com essa imagem :
    ![](http://i.imgur.com/z8KrxAz.png).</p>
 
-These characteristics are dependent upon each markdown flavour.
+Estas características dependem de cada versão de markdown.
 
-## Useful notes  :
- * Markdown allows you to use backslash escapes to generate literal characters which
-would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \     
- `So? \*This\* isnt italic  anymore but is surrounded by literal asterisks.`
+## Notas úteis  :
+ * O Markdown permite que você use escapes de barra invertida para gerar caracteres literais que
+de outra forma teria um significado especial na sintaxe de formatação da Markdown. Um personagem de escape de barra invertida comumente usado é : \     
+ `Assim? \ * Este \ * não é mais itálico, mas é cercado por asteriscos literais.`
 
- * Youtube videos require some additional work. 
+ * Os vídeos do Youtube requerem algum trabalho adicional. 
   ```
-  They can't be added directly but you can add an image with a link to the video like this:
+  Eles não podem ser adicionados diretamente, mas você pode adicionar uma imagem com um link para o vídeo como este:
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
   " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
   alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
   ```
- * Markdown does support Emojii :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( get some emojies [here](http://www.emoji-cheat-sheet.com/) )
- * You can use \<br/> tag to force line break. 
- * Double space then enter if you want to make a new line if there is trouble making new lines.
- * Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online [here](http://www.markdowntutorial.com).
- *  Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from [Sean Brody](https://goo.gl/ASZwEn))
- *  Any URL (like http://www.github.com/) will be automatically converted into a clickable link.  
- *  Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.  
-```I had such a pain making the above table possible```
+ * Markdown suporta Emoji :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( obter alguns emojis [aqui](http://www.emoji-cheat-sheet.com/) )
+ * Você pode usar a tag \<br/> para forçar uma quebra de linha. 
+ * O espaço duplo, em seguida, se você quiser fazer uma nova linha se houver problemas para criar novas linhas.
+ * Ver não é tão bom como praticar. Você pode criar um arquivo de markdown para você praticar ou fazê-lo online [aqui](http://www.markdowntutorial.com).
+ *  As notas de rodapé e o destaque de sintaxe não fazem parte do Markdown original e são apenas suportados por certas versões de markdown (Feedback de [Sean Brody](https://goo.gl/ASZwEn))
+ *  Qualquer URL (like http://www.github.com/) será automaticamente convertido em um link clicável.  
+ *  O suporte à tabela Markdown é projetado para lidar com a maioria das tabelas para a maioria das pessoas; não cobre todas as tabelas para todas as pessoas. Se você precisa de tabelas complexas, você precisará criá-las manualmente ou com uma ferramenta especificamente projetada para o formato de saída.  
+```Eu tive tanta dor tornando possível a tabela acima```
  
-###### Author: *Vo Tran Thanh Luong*. 
-   
+###### Autor: *Vo Tran Thanh Luong*.
+###### Tradução: *Héricles Emanuel*.
