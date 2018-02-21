@@ -5,6 +5,7 @@ Hello, welcome to my tutorial for markdown.
 In this tutorial you will learn the most basics things about Markdown.  
 Spanish version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md).
 Portuguese version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md).
+French version available [here](https://github.com/luongvo209/Markdown-Tutorial/blob/master/README_fr.md).
 
 *******
 Tables of contents  
@@ -107,5 +108,5 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
  *  Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.  
 ```I had such a pain making the above table possible```
  
-###### Author: *Vo Tran Thanh Luong*. 
+###### Author: *Vo Tran Thanh Luong*. Also, I would like to thank all the contributors/translators for your work making this greater.
    
