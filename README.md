@@ -4,7 +4,7 @@
 Hello, welcome to my tutorial for markdown.  
 In this tutorial you will learn the most basics things about Markdown.  
 Spanish version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md).
-Portugese version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md).
+Portuguese version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md).
 
 *******
 Tables of contents  
