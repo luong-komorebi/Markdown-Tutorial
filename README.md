@@ -80,10 +80,12 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 
 <br></br>
  <br></br>
- <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this     ![](http://i.imgur.com/pmeBr28.png)
+ <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this </p>  
+ 
+ ![](http://i.imgur.com/pmeBr28.png)  
    <br></br>
    The same goes for **block code/syntax hightlighting**. It kinda looks like this picture :
-  </p>
+  
 ![](http://i.imgur.com/z8KrxAz.png).    
 
 These characteristics are dependent upon each markdown flavour.  
