@@ -83,9 +83,11 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
  <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this     ![](http://i.imgur.com/pmeBr28.png)
    <br></br>
    The same goes for **block code/syntax hightlighting**. It kinda looks like this picture :
-   ![](http://i.imgur.com/z8KrxAz.png).</p>
+  </p>
+![](http://i.imgur.com/z8KrxAz.png).    
 
-These characteristics are dependent upon each markdown flavour.
+These characteristics are dependent upon each markdown flavour.  
+
 
 ## Useful notes  :
  * Markdown allows you to use backslash escapes to generate literal characters which
