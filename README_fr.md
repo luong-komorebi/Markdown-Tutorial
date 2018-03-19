@@ -61,9 +61,9 @@ Toute la syntaxe peut être trouvée [ici](https://daringfireball.net/projects/m
 | ------|-----|-----|
 | Italique  	| \*Texte\* 	| *C'est en italique* 	|
 | Gras 	| \*\*Gras\*\* 	| **C'est en bold** 	|
-| Lien 	| \[Description\](url ici) 	| A [link](http://www.github.com) 	|
-| Images 	| \![Caption\](url to img) 	| An image ![image](http://i.imgur.com/hRLuez2.png) 	|
-| Lien + images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
+| Lien 	| \[Description\](url ici) 	| Un [lien](http://www.github.com) 	|
+| Images 	| \![Légende\](url vers l'image) 	| Une image ![image](http://i.imgur.com/hRLuez2.png) 	|
+| Lien + images 	| \[\![Légende\](url vers l'image)\](url vers une page)\] 	| Cliquez sur moi [![moi](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
 | Notes de bas de page  	| J'ai plus de choses \[^1\] à dire.   \[^1\]: Dites-le ici. 	| <a href="#section1">Hey, lisez la note sous ce tableau s'il vous plaît.  	|
 | Sauts de ligne 	| Double espace + entrée 	|  	|
 | Listes non-ordonnées 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
