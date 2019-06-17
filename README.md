@@ -63,6 +63,7 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Italic  	| \*Text\* 	| *This is italic* 	|
 | Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
 | Inline links 	| \[Description text\](url here) 	| A [link](http://www.github.com) 	|
+| List Links | <li> <a href=""url here""> Description Text</a>| <li> <a href="https://github.com">A link</a>|
 | Images 	| \![Caption\](url to img) 	| An image ![image](http://i.imgur.com/hRLuez2.png) 	|
 | Link+images 	| \[\![Caption\](url to img)\](url to a page)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
 | Footnotes  	| I have more \[^1\] to say.   \[^1\]: say it down here. 	| <a href="#section1">Hey,Please read the note below this table.  	|
