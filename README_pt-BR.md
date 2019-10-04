@@ -31,12 +31,12 @@ A partir de agora, este guia se concentrará principalmente na versão Markdown 
 
 ## Porque usar Markdown?
 Porque é :
- * **FÁCIL** : A sintaxe é tão fácil que você pode aprender em um minuto ou dois, em seguida, escreva sem perceber nada estranho ou geeky.
+ * **FÁCIL** : A sintaxe é tão fácil que você pode aprender em um minuto ou dois, em seguida, escreva sem perceber nada estranho ou nerd.
  * **RÁPIDO** : Ele economiza tempo em comparação com outros tipos de arquivos / formatos de texto. Isso ajuda a aumentar a produtividade e os fluxos de trabalho do escritor.
  * **LIMPO** : Tanto a sintaxe como a saída são limpas, sem confusão com nossos olhos e simples de gerenciar.
  * **FLEXÍVEL** : Com apenas algumas configurações, o seu texto será traduzido atravessando qualquer plataforma lá fora, editável em qualquer software de edição de texto e conversível para uma ampla variedade de formatos.
 <br></br>
-**Em resumo**, os usuários normais acharão útil em todos os casos, especialmente quando você precisar de algo melhor que o texto simples, mas menos funcional do que o Microsoft Word.  
+**Em resumo**, os usuários comuns acharão útil em todos os casos, especialmente quando você precisar de algo melhor que o texto simples, mas menos funcional do que o Microsoft Word.  
 **Para desenvolvedores**, Se você é preguiçoso para escrever código HTML, você vai adorar o markdown. **Além disso**, **Github** e muitos sites favorecem o markdown para o arquivo readme de projetos. Isso significa que você vai encontrar o markdown em sua vida de uma forma ou de outra.  
 <div id='tools'/>  
 
@@ -63,8 +63,8 @@ Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/ma
 | Negrito  	| \*\*Bold\*\* 	| **Isto está em negrito** 	|
 | Links inline 	| \[texto\](url aqui) 	| Um [link](http://www.github.com) 	|
 | Imagens 	| \![Legenda\](url da img) 	| Uma imagem ![image](http://i.imgur.com/hRLuez2.png) 	|
-| Link+imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
-| Notas de rodapé  	| Eu tenho mais \[^1\] pra dizer.   \[^1\]: diga aqui. 	| <a href="#section1">Hey,Please read the note below this table.  	|
+| Link+imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Me clique [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
+| Notas de rodapé  	| Eu tenho mais \[^1\] pra dizer.   \[^1\]: diga aqui. 	| <a href="#section1">Ei, por favor leia as notas sobre essa tabela.  	|
 | Quebras de linha 	| Double space + enter 	|  	|
 | Listas não ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
 | Listas Ordenadas  	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
@@ -96,16 +96,17 @@ de outra forma teria um significado especial na sintaxe de formatação da Markd
   Eles não podem ser adicionados diretamente, mas você pode adicionar uma imagem com um link para o vídeo como este:
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
   " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-  alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+  alt="Texto ALT da imagem aqui" width="240" height="180" border="10" /></a>
   ```
  * Markdown suporta Emoji :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( obter alguns emojis [aqui](http://www.emoji-cheat-sheet.com/) )
  * Você pode usar a tag \<br/> para forçar uma quebra de linha. 
  * O espaço duplo, em seguida, se você quiser fazer uma nova linha se houver problemas para criar novas linhas.
  * Ver não é tão bom como praticar. Você pode criar um arquivo de markdown para você praticar ou fazê-lo online [aqui](http://www.markdowntutorial.com).
  *  As notas de rodapé e o destaque de sintaxe não fazem parte do Markdown original e são apenas suportados por certas versões de markdown (Feedback de [Sean Brody](https://goo.gl/ASZwEn))
- *  Qualquer URL (like http://www.github.com/) será automaticamente convertido em um link clicável.  
+ *  Qualquer URL (Como http://www.github.com/) será automaticamente convertido em um link clicável.  
  *  O suporte à tabela Markdown é projetado para lidar com a maioria das tabelas para a maioria das pessoas; não cobre todas as tabelas para todas as pessoas. Se você precisa de tabelas complexas, você precisará criá-las manualmente ou com uma ferramenta especificamente projetada para o formato de saída.  
 ```Eu tive tanta dor tornando possível a tabela acima```
  
 ###### Autor: *Vo Tran Thanh Luong*.
 ###### Tradução: *Héricles Emanuel*.
+###### Correções: [*Alexander Santos*](https://https://github.com/Ronkiro).
