@@ -1,14 +1,14 @@
 # Markdown Tutorial 
 ![](http://i.imgur.com/IMTN5cy.png)  
 
-Hello, welcome to my tutorial for markdown.  
-In this tutorial you will learn the most basics things about Markdown.  
-Spanish version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md).
-Portuguese version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md).
-French version available [here](https://github.com/luongvo209/Markdown-Tutorial/blob/master/README_fr.md).
+## Hello, welcome to my tutorial for markdown 👋.  
+In this tutorial you will learn the most basics things about Markdown. 👨‍🏫👩‍🏫
+- Spanish version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md). <img src="https://lh3.googleusercontent.com/proxy/sLHvxktCU13bf4b_UDFrpFeme4uQ5EF0_2e_BtnfQcvmOdlTWc4pShjke4kPYmfOCA2FEZFricSJfxKK9i3iQP2N" height="25px">
+- Portuguese version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md). <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/118/flag-for-portugal_1f1f5-1f1f9.png" height="25px">
+- French version available [here](https://github.com/luongvo209/Markdown-Tutorial/blob/master/README_fr.md).  <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/114/flag-for-france_1f1eb-1f1f7.png" height="25px">
 
 *******
-Tables of contents  
+## Tables of contents  
  1. [What is Markdown?](#whatismarkdown)
  2. [Why use Markdown?](#why)
  3. [Tools for Markdown](#tools)
@@ -18,7 +18,7 @@ Tables of contents
 
 <div id='whatismarkdown'/>  
 
-## What is markdown ?  
+## What is Markdown ?  
 According to Wikipedia :  
 
   >*Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.*   
