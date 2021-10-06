@@ -78,10 +78,12 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Headers 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>This is a h3 header</h3>	|
 | Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
 | Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
-
+|Footnotes| Footnote[\^1\] <br> [\^1\]: Text reference | Here is a simple footnote[^1]. With some additional text after it. | 
+[^1]: My footnote reference.
+ 
 <br></br>
  <br></br>
- <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this </p>  
+ <p id="section1">Note: **Footnote** actually doesnt render properly in table, but it kinda looks like this </p>  
  
  ![](http://i.imgur.com/pmeBr28.png)  
    <br></br>
