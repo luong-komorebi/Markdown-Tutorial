@@ -157,7 +157,5 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
          C-->D;
    ```
 
-```I had such a pain making the above table possible```
- 
 ###### Author: *Vo Tran Thanh Luong*. Also, I would like to thank all the contributors/translators for your work making this greater.
    
