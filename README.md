@@ -119,8 +119,43 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
 [![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![Github](http://img.shields.io/badge/github-%231877F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=black)](https://github.com/)
 ( get some badges [here](https://shields.io/) )
- 
-```I had such a pain making the above table possible```
- 
+
+* Using code block syntax with diff language to generate colored text. There are still some limitations such as can not style the text inside and few colors. This can be applicable when you want to highlight some note or to show difference between two code block
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
+* In markdown file on Github, with code block syntax and Mermaid language specifed, we can draw many kinds of diagram. More syntax and sample diagrams [here](https://mermaid-js.github.io/)
+
+  - Class diagram
+   ```mermaid
+   classDiagram
+       class Duck{
+        -weight
+         +swim()
+         +quack()
+       }
+   ```
+  - Sequence diagram
+   ```mermaid
+   sequenceDiagram
+       participant dotcom
+       participant iframe
+       dotcom->>iframe: loads html w/ iframe url
+   ```
+  - Flowchart
+   ```mermaid
+     graph TD;
+         A-->B;
+         A-->C;
+         B-->D;
+         C-->D;
+   ```
+
 ###### Author: *Vo Tran Thanh Luong*. Also, I would like to thank all the contributors/translators for your work making this greater.
    
