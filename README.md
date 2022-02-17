@@ -130,6 +130,33 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
 @@ text in purple (and bold)@@
 ```
 
+* In markdown file on Github, with code block syntax and Mermaid language specifed, we can draw many kinds of diagram. More syntax and sample diagrams [here](https://mermaid-js.github.io/)
+
+  - Class diagram
+   ```mermaid
+   classDiagram
+       class Duck{
+        -weight
+         +swim()
+         +quack()
+       }
+   ```
+  - Sequence diagram
+   ```mermaid
+   sequenceDiagram
+       participant dotcom
+       participant iframe
+       dotcom->>iframe: loads html w/ iframe url
+   ```
+  - Flowchart
+   ```mermaid
+     graph TD;
+         A-->B;
+         A-->C;
+         B-->D;
+         C-->D;
+   ```
+
 ```I had such a pain making the above table possible```
  
 ###### Author: *Vo Tran Thanh Luong*. Also, I would like to thank all the contributors/translators for your work making this greater.
