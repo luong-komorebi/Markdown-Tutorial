@@ -130,6 +130,12 @@ would otherwise have special meaning in Markdown’s formatting syntax. One comm
 @@ text in purple (and bold)@@
 ```
 
+
+* Add beautiful note or warning section into markdown GitHub:
+> **Note**:
+
+> **Warning**:
+
 * In markdown file on Github, with code block syntax and Mermaid language specifed, we can draw many kinds of diagram. More syntax and sample diagrams [here](https://mermaid-js.github.io/)
 
   - Class diagram
