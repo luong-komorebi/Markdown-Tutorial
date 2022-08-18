@@ -61,21 +61,21 @@ Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/ma
 | ------|-----|-----|
 | Itálico  	| \*Text\* 	| *Isto está em itálico* 	|
 | Negrito  	| \*\*Bold\*\* 	| **Isto está em negrito** 	|
-| Links inline 	| \[texto\](url aqui) 	| Um [link](http://www.github.com) 	|
+| Links Inline 	| \[texto\](url aqui) 	| Um [link](http://www.github.com) 	|
 | Imagens 	| \![Legenda\](url da img) 	| Uma imagem ![image](http://i.imgur.com/hRLuez2.png) 	|
-| Link+imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Me clique [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
-| Quebras de linha 	| Double space + enter 	|  	|
-| Listas não ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li> 	|
+| Link + Imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Me clique [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
+| Quebras de Linha 	| Double space + enter 	|  	|
+| Listas Não Ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li> 	|
 | Listas Ordenadas  	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li>  	|
-| Listas mistas 	| 1. Item 1      * item 1a 	|  <ol><li>item1</li></ol><ul><li> item1a</li></ul>	|
+| Listas Mistas 	| 1. Item 1      * item 1a 	|  <ol><li>item1</li></ol><ul><li> item1a</li></ul>	|
 | Citação 	| \> Texto citado 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Preformatted 	| Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|   Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|
 | Código 	| \`Insira o código\` 	| `cout<<"Hello world";` 	|
-| Bloco de código/ Destaque de Sintaxe 	| \`\`\`Insira o código\`\`\` 	|  <a href="#section1">Ei, leia a nota abaixo desta tabela. 	|
+| Bloco de Código/ Destaque de Sintaxe 	| \`\`\`Insira o código\`\`\` 	|  <a href="#section1">Ei, leia a nota abaixo desta tabela. 	|
 | Títulos 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>Isso é um título h3</h3>	|
 | Riscado 	| \~~Insira o texto aqui\~~ 	| ~~Eu estou morto~~ 	|
 | Tabelas 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
-|Notas de rodapé| Notas de rodapé[\^1\] <br> [\^1\]: Refêrencia | Aqui está uma simples nota de rodapé[^1]. Com um texto adicional. | 
+|Notas de Rodapé| Notas de rodapé[\^1\] <br> [\^1\]: Refêrencia | Aqui está uma simples nota de rodapé[^1]. Com um texto adicional. | 
 [^1]: Minha Referencia favorita.
  
 <br></br>
