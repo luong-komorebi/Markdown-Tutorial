@@ -142,7 +142,7 @@ de outra forma teria um significado especial na sintaxe de formatação da Markd
    sequenceDiagram
        participant dotcom
        participant iframe
-       dotcom->>iframe: carrega html com utl do iframe
+       dotcom->>iframe: carrega html com url do iframe
    ```
   - Fluxograma
    ```mermaid
