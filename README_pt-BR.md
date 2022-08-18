@@ -64,11 +64,10 @@ Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/ma
 | Links inline 	| \[texto\](url aqui) 	| Um [link](http://www.github.com) 	|
 | Imagens 	| \![Legenda\](url da img) 	| Uma imagem ![image](http://i.imgur.com/hRLuez2.png) 	|
 | Link+imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Me clique [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
-| Notas de rodapé  	| Eu tenho mais \[^1\] pra dizer.   \[^1\]: diga aqui. 	| <a href="#section1">Ei, por favor leia as notas sobre essa tabela.  	|
 | Quebras de linha 	| Double space + enter 	|  	|
-| Listas não ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul> 	|
-| Listas Ordenadas  	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>  	|
-| Listas mistas 	| 1. Item 1      * item 1a 	|  <ol><li>itema</li></ol><ul><li> item1</li></ul>	|
+| Listas não ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li> 	|
+| Listas Ordenadas  	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li>  	|
+| Listas mistas 	| 1. Item 1      * item 1a 	|  <ol><li>item1</li></ol><ul><li> item1a</li></ul>	|
 | Citação 	| \> Texto citado 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
 | Preformatted 	| Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|   Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|
 | Código 	| \`Insira o código\` 	| `cout<<"Hello world";` 	|
@@ -76,13 +75,18 @@ Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/ma
 | Títulos 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>Isso é um título h3</h3>	|
 | Riscado 	| \~~Insira o texto aqui\~~ 	| ~~Eu estou morto~~ 	|
 | Tabelas 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
-
+|Notas de rodapé| Notas de rodapé[\^1\] <br> [\^1\]: Refêrencia | Aqui está uma simples nota de rodapé[^1]. Com um texto adicional. | 
+[^1]: Minha Referencia favorita.
+ 
 <br></br>
  <br></br>
- <p id="section1">Nota: **Nota de rodapé** na verdade não é processado corretamente na tabela (e github preview), mas parece ser assim     ![](http://i.imgur.com/pmeBr28.png)
+ <p id="section1">Nota: **Nota de rodapé** atualmente não renderiza direito na tabela, mas se parece com isso: </p>  
+ 
+ ![](http://i.imgur.com/pmeBr28.png)  
    <br></br>
-   O mesmo vale para **Bloco de codigo/Destaque de sintaxe**. É um pouco parecido com essa imagem :
-   ![](http://i.imgur.com/z8KrxAz.png).</p>
+   O mesmo vale para **Bloco de código/destaque de sintaxe**. Sua aprarencia é igual a da imagem abaixo:
+  
+![](http://i.imgur.com/z8KrxAz.png).    
 
 Estas características dependem de cada versão de markdown.
 
@@ -105,7 +109,51 @@ de outra forma teria um significado especial na sintaxe de formatação da Markd
  *  As notas de rodapé e o destaque de sintaxe não fazem parte do Markdown original e são apenas suportados por certas versões de markdown (Feedback de [Sean Brody](https://goo.gl/ASZwEn))
  *  Qualquer URL (Como http://www.github.com/) será automaticamente convertido em um link clicável.  
  *  O suporte à tabela Markdown é projetado para lidar com a maioria das tabelas para a maioria das pessoas; não cobre todas as tabelas para todas as pessoas. Se você precisa de tabelas complexas, você precisará criá-las manualmente ou com uma ferramenta especificamente projetada para o formato de saída.  
-```Eu tive tanta dor tornando possível a tabela acima```
+ * Usando imagens e links, você pode criar alguns recursos coloridos no momento da renderização. Badges como este são exemplos típicos que você pode encontrar em todo o Github [![Java](https://img.shields.io/badge/Java-%23FFac45.svg?&style=for-the-badge&logo=java&logoColor=white&color=yellow)](https://github.com/)  [![HTML](https://img.shields.io/badge/HTML-%23FFac45.svg?&style=for-the-badge&logo=html5&logoColor=white&color=orange)](https://github.com/)
+[![CSS](https://img.shields.io/badge/CSS-%23FFac45.svg?&style=for-the-badge&logo=css3&logoColor=white&color=blue)](https://github.com/)
+[![JavaScript](https://img.shields.io/badge/JAVASCRIPT-%23FFac45.svg?&style=for-the-badge&logo=javascript&logoColor=white&color=yellow)](https://github.com/) 
+[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![Github](http://img.shields.io/badge/github-%231877F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=black)](https://github.com/)
+( get some badges [here](https://shields.io/) )
+
+* Usando a sintaxe do bloco de código diff para gerar texto colorido. Ainda existem algumas limitações como não conseguir estilizar o texto dentro da caixa diff e poucas cores para a formatação. Isso pode ser aplicável quando você deseja destacar alguma nota ou mostrar a diferença entre dois blocos de código
+
+```diff
+- texto em vermelho
++ texto em verde
+! texto em laranja
+# texto em cinza
+@@ texto em roxo (e negrito)@@
+```
+
+* Em arquivo markdown no Github, com sintaxe de bloco de código e linguagem Mermaid, podemos desenhar vários tipos de diagrama. Mais sintaxe e diagramas de exemplo [aqui](https://mermaid-js.github.io/)
+
+  - Diagrama de classe
+   ```mermaid
+   classDiagram
+       class Pato{
+        -peso
+         +nada()
+         +quack()
+       }
+   ```
+  - Diagrama de sequência
+   ```mermaid
+   sequenceDiagram
+       participant dotcom
+       participant iframe
+       dotcom->>iframe: carrega html com utl do iframe
+   ```
+  - Fluxograma
+   ```mermaid
+     graph TD;
+         A-->B;
+         A-->C;
+         B-->D;
+         C-->D;
+   ```
+
+###### Author: *Vo Tran Thanh Luong*. Also, I would like to thank all the contributors/translators for your work making this greater.
  
 ###### Autor: *Vo Tran Thanh Luong*.
 ###### Tradução: *Héricles Emanuel*.
