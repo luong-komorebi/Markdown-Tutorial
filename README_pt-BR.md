@@ -84,7 +84,7 @@ Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/ma
  
  ![](http://i.imgur.com/pmeBr28.png)  
    <br></br>
-   O mesmo vale para **Bloco de código/destaque de sintaxe**. Sua aprarencia é igual a da imagem abaixo:
+   O mesmo vale para **Bloco de código/destaque de sintaxe**. Sua aparência é igual a da imagem abaixo:
   
 ![](http://i.imgur.com/z8KrxAz.png).    
 
