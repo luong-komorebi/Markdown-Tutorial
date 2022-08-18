@@ -127,7 +127,7 @@ de outra forma teria um significado especial na sintaxe de formatação da Markd
 ```
 
 
-* Para adicionar marações de "Notas" e de "Aviso" deve-se usar a marcação abaixo:
+* Para adicionar marcações de "Nota" e de "Aviso" deve-se usar a marcação abaixo:
 >
 > **Note**:
 > 
