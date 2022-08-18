@@ -126,6 +126,14 @@ de outra forma teria um significado especial na sintaxe de formatação da Markd
 @@ texto em roxo (e negrito)@@
 ```
 
+
+* Para adicionar marações de "Notas" e de "Aviso" deve-se usar a marcação abaixo:
+>
+> **Note**:
+> 
+> **Warning**:
+
+
 * Em arquivo markdown no Github, com sintaxe de bloco de código e linguagem Mermaid, podemos desenhar vários tipos de diagrama. Mais sintaxe e diagramas de exemplo [aqui](https://mermaid-js.github.io/)
 
   - Diagrama de classe
