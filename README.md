@@ -54,7 +54,9 @@ As said above, any editors can be used to edit markdown. However, there are a fe
  * **[*MarkdownPad*](http://markdownpad.com/)** : best for Windows.
  * **[*Remarkable*](https://remarkableapp.github.io/)** : best for Linux. 
  * **[*GITBOOK*](http://www.gitbook.com/)** : GitBook is a modern publishing toolchain. Making both writing and collaboration easy. It does both support Markdown and have a close relation with the beloved Github.
+ * **[*Zettlr*](https://www.zettlr.com/)** : additional for Linux. 
 <div id='syntax'/>  
+ 
 
 ## Markdown Syntax  
 All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.  
@@ -78,6 +80,7 @@ All Syntax can be found [here](https://daringfireball.net/projects/markdown/synt
 | Headers 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>This is a h3 header</h3>	|
 | Strike through 	| \~~Insert text here\~~ 	| ~~I am dead~~ 	|
 | Tables 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
+| LaTeX 	| \`\`\`math \sqtr{2} \`\`\`	| &#8730;2 	|
 |Footnotes| Footnote[\^1\] <br> [\^1\]: Text reference | Here is a simple footnote[^1]. With some additional text after it. | 
 [^1]: My footnote reference.
  
